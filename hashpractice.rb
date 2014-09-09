@@ -16,7 +16,7 @@ s = [{first_name: "Rachelle", last_name: "K",
 s.each do |f|
   sister = Sister.new(f)
   puts sister.inspect
-
+  #
   # does the same thing as Sister.new(s[0])
   #Sister.new(s[1]) would, but if there were
   # then 2 hashes it would be a pain to
